@@ -106,7 +106,7 @@ while running:
     menu.draw_mine(700, 720)
     menu.draw_mine(620, 600)
     if current_scene == 'open menu':
-        menu.title_text = menu.font.render("ГОЛОВНЕ МЕНЮ", True, menu.DEEP_PURPLE)
+        menu.title_text = menu.font.render("MAIN MENU", True, menu.DEEP_PURPLE)
         menu.screen.blit(menu.title_text, (210, 25))
         menu.draw_dreadnought_front(400, menu.HORIZON_Y + 5)
         menu.draw_dreadnought_side(160, menu.HORIZON_Y + 5, False)
